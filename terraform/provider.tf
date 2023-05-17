@@ -7,7 +7,7 @@ terraform {
   }
 
 backend "s3" {
-        bucket = "sudeep-capstone"
+        bucket = "terraformtest011"
         key = "keys/terraform.tfstate"
         region = "us-east-1"
 }
